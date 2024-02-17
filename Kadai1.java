@@ -6,7 +6,6 @@ class Kadai1 {
 
     public static boolean isUniqueChars(String str) {
         char[] charArray = str.toCharArray();
-
         char charA;
         char charB;
         for (int i = 0; i < charArray.length - 1; i++) {//8
